@@ -1,24 +1,22 @@
 {
-  "title": "Greenplum for Kubernetes",
-  "description": "Installing Greenplum on Kubernetes",
-  "difficulty": "beginner",
-  "time": "2 minutes",
+  "title": "Greenplum for Kubernetes Installation",
+  "description": "Install Greenplum Database on Kubernetes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
     "intro": {
-      "text": "intro.md",
-      "credits": ""
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "kubernetes-cluster"
